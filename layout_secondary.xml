@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/user_male" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="49dp"
+        android:layout_height="52dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/w128h1281349049405internetnewsreader" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="46dp"
+        android:layout_height="42dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/phone" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/svaz" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="51dp"
+        android:layout_height="58dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/icon_chat" />
+
+</LinearLayout>
