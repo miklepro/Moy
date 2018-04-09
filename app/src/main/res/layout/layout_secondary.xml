@@ -48,4 +48,12 @@
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/icon_chat" />
 
+    <include
+        layout="@layout/layout_secondary"
+        android:layout_below="@+id/sliding_layout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </LinearLayout>

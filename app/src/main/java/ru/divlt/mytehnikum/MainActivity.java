@@ -24,12 +24,19 @@ public class MainActivity extends AppCompatActivity {
 
         imageButton.setOnClickListener (new OnClickListener());
 
+
     }
 
     private class OnClickListener implements View.OnClickListener {
         @Override
         public void onClick(View v) {
-
+            if (slidingUpPanelLayout != null) {
+                if (slidingUpPanelLayout.getPanelState() != SlidingUpPanelLayout.PanelState.HIDDEN) {
+                    slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.HIDDEN);
+                } else {
+                    slidingUpPanelLayout.setPanelState(SlidingUpPanelLayout.PanelState.EXPANDED);
+                }
+            }
         }
     }
 }
